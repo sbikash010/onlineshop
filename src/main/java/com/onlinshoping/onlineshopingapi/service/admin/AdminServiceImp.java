@@ -41,7 +41,7 @@ public class AdminServiceImp implements AdminService {
     @Override
     public AdminDetails updateAdmin(Integer id) {
         AdminDetails existadmin=adminRepo.getAdminById(id);
-        existadmin.setName("binod");
+        existadmin.setName("sarin");
         existadmin.setAddress("dhading");
         existadmin.setEmail("binod@gmail.com");
         return this.saveAdmin(existadmin);
