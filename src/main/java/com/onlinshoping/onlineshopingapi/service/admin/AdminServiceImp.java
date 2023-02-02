@@ -42,7 +42,7 @@ public class AdminServiceImp implements AdminService {
     public AdminDetails updateAdmin(Integer id) {
         AdminDetails existadmin=adminRepo.getAdminById(id);
         existadmin.setName("binod");
-        existadmin.setAddress("nepal");
+        existadmin.setAddress("dhading");
         existadmin.setEmail("binod@gmail.com");
         return this.saveAdmin(existadmin);
     }
